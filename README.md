@@ -8,16 +8,16 @@ This is a bad news for someone who wants to fetch the latests tweets using pure 
 
 ## Configuration
 
-First you need to create an app in [dev.twitter.com](dev.twitter.com)
+First you need to create an app in [dev.twitter.com](http://dev.twitter.com)
 
 With the app created,  only thing that you need to configure in the script are:
 
-**screen_name:** your twitter username (e.g.: gianu)
-**tweet_count:** the number of tweets you want to retrieve
-**consumer_key:** the consumer key provided by the app created in twitter.
-**consumer_secret:** the consumer secret provided by the app created in twitter.
-**oauth_token:** the auth_token provided by the app created in twitter.
-**oauth_secret:** the auth_secret provided by the app created in twitter.
+* **screen_name:** your twitter username (e.g.: gianu).
+* **tweet_count:** the number of tweets you want to retrieve.
+* **consumer_key:** the consumer key provided by the app created in twitter.
+* **consumer_secret:** the consumer secret provided by the app created in twitter.
+* **oauth_token:** the auth_token provided by the app created in twitter.
+* **oauth_secret:** the auth_secret provided by the app created in twitter.
 
 ## Bugs and Improvements
 
