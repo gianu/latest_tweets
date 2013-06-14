@@ -21,4 +21,4 @@ With the app created,  only thing that you need to configure in the script are:
 
 ## Bugs and Improvements
 
-Feel free to report any bug that you found or create PR with improvements!
+Feel free to [report](https://github.com/gianu/latest_tweets/issues) any bug that you found or create PR with improvements!
