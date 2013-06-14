@@ -2,7 +2,8 @@
 #
 # Get the latest tweets from your account.
 #
-# This script is based on a solution proposed in the twitter discussion forum: https://dev.twitter.com/discussions/14460
+# This script is based on a solution proposed by Mike Bounds
+#  in the twitter discussion forum: https://dev.twitter.com/discussions/14460
 
 set -o errexit
 
