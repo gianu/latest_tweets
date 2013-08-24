@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Get the latest tweets from your account.
 #
