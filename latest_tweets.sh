@@ -27,4 +27,4 @@ header="Authorization: OAuth oauth_consumer_key=\"${consumer_key}\", oauth_nonce
 
 result=`curl --get 'https://api.twitter.com/1.1/statuses/user_timeline.json' --data "count=${tweet_count}&screen_name=${screen_name}" --header "Content-Type: application/x-www-form-urlencoded" --header "${header}"` 
 
-echo $result
+echo "${result}"
