@@ -19,6 +19,15 @@ With the app created,  only thing that you need to configure in the script are:
 * **oauth_token:** the auth_token provided by the app created in twitter.
 * **oauth_secret:** the auth_secret provided by the app created in twitter.
 
+## Collaborators
+
+Thanks:
+
+* [@airscout](http://github.com/airscout)
+* [@leptonics](http://github.com/leptonics)
+
+For helping with bugfixing and improvements!
+
 ## Bugs and Improvements
 
 Feel free to [report](https://github.com/gianu/latest_tweets/issues) any bug that you found or create PR with improvements!
