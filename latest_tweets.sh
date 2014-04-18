@@ -25,6 +25,6 @@ oauth_signature=`echo -n ${signature_base_string} | openssl dgst -sha1 -hmac ${s
 
 header="Authorization: OAuth oauth_consumer_key=\"${consumer_key}\", oauth_nonce=\"${nonce}\", oauth_signature=\"${oauth_signature}\", oauth_signature_method=\"HMAC-SHA1\", oauth_timestamp=\"${timestamp}\", oauth_token=\"${oauth_token}\", oauth_version=\"1.0\""
 
-result=`curl --get 'https://api.twitter.com/1.1/statuses/user_timeline.json' --data "count=${tweet_count}&screen_name=${screen_name}" --header "Content-Type: application/x-www-form-urlencoded" --header "${header}"` 
+result=`curl --get 'https://api.twitter.com/1.1/statuses/user_timeline.json' --data "count=${tweet_count}&screen_name=${screen_name}" --header "Content-Type: application/x-www-form-urlencoded" --header "${header}"`
 
 echo "${result}"
